@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(173, 201, 172);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  button {
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(1, 46, 11);
+    cursor: pointer;
+    color: white;
+    &:hover {
+      background-color: rgb(38, 188, 113);
+    }
+  }
+}
+
+.about {
+  color: rgb(21, 7, 72);
+  padding-left: 1rem;
+  ul {
+    padding: 0.25rem 0;
+    li {
+      padding: 0.25rem 0;
+    }
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";

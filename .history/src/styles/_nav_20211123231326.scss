@@ -1,0 +1,19 @@
+nav {
+  background-color: rgb(99, 186, 128);
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  box-shadow: 0 8px 10px -5px rgb(131, 164, 146);
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    li {
+      padding: 0.5rem 1rem;
+      a {
+        font-size: 1.5rem;
+        color: white;
+      }
+    }
+  }
+}
