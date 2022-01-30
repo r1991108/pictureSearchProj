@@ -8,7 +8,17 @@ const Search = ({ searchHandler, setInput }) => {
 
   return (
     <div className="search">
-      <input onChange={inputHandler} type="text" id="name" />
+      <input
+        onChange={inputHandler}
+        onKeyPress={(e) => {
+          if (e.key === "Enter") {
+            // console.log(e.key);
+            searchHandler();
+          }
+        }}
+        type="text"
+        id="name"
+      />
 
       <button onClick={searchHandler}>Search</button>
     </div>

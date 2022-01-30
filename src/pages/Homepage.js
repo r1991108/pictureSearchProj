@@ -66,6 +66,7 @@ const Homepage = () => {
     <div style={{ minHeight: "100vh" }}>
       <Search
         searchHandler={() => {
+          console.log("test");
           setCurrentSearch(input);
         }}
         setInput={setInput}
