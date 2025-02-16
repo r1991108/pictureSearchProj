@@ -6,12 +6,12 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/pictureSearchProj/">Search Image</Link>
+          <Link to="/">Search Image</Link>
         </li>
         <li>
           {/* use Link to prevent page refreshing */}
           {/* <a href="/about">About</a> */}
-          <Link to="/pictureSearchProj/about">|　About</Link>
+          <Link to="/about">|　About</Link>
         </li>
       </ul>
     </nav>
