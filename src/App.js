@@ -8,7 +8,7 @@ import "./styles/style.css";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Nav />
       <Routes>
         <Route path="/pictureSearchProj/" element={<Homepage />} />
@@ -16,7 +16,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </div>
+    </>
   );
 }
 
